@@ -2,13 +2,10 @@
   "name": "eudgc",
   "version": "1.0.6",
   "description": "EuDGC (European Digital Green Certificate) handling in Javascript and Typescript",
-  "main": "dist/eudgc.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "watch": "npx webpack serve --mode=development",
-    "serve": "npx webpack serve --mode=development",
-    "build": "npx webpack --mode=production && cp dist/eudgc.js docs",
-    "prepublishOnly": "npx webpack --mode=production && cp dist/eudgc.js docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -p tsconfig.json"
   },
   "keywords": [
     "EuDGC",
@@ -38,10 +35,7 @@
     "buffer": "^6.0.3",
     "install": "^0.13.0",
     "ts-loader": "^9.2.3",
-    "typescript": "^4.3.5",
-    "webpack": "^5.41.1",
-    "webpack-cli": "^4.7.2",
-    "webpack-dev-server": "^3.11.2"
+    "typescript": "^4.3.5"
   },
   "repository": {
     "type": "git",

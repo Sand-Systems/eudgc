@@ -8,4 +8,3 @@
 export * from  "./eudgc"
 export * from "./cose1"
 
-console.log("EUDGC by Scopevisio AG")

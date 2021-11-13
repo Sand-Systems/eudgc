@@ -169,4 +169,3 @@ export class Cose1 {
 
 }
 
-console.log("cose1.ts")
