@@ -5,7 +5,7 @@
 /*
  * Written by Scopevisio AG 2021
  */
-import "./eudgc"
-import "./cose1"
+export * from  "./eudgc"
+export * from "./cose1"
 
 console.log("EUDGC by Scopevisio AG")
